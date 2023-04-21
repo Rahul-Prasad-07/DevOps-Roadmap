@@ -35,6 +35,39 @@ Plan --> Implement --> Test --> Deploy --> Maintain
  - run on server
  - upgrade existing software 
 
+### development 
+- programming
+- test framework
+- database
+- version control
+
+### operation
+- os, mostly Linux
+- command line 
+- scripting
+- monitoring tools
+
+## Waterfall vs Agile
+
+## Operating system
+
+### Intro to operating system 
+- what is operating system?
+- how it is constructed ?
+- how os differ from each other ?
+
+### Virtualization
+### Linux file system
+### Main linux command
+### Package Manager
+### Vim Editor
+### User & permission
+### Shell scripting
+### Environment variables
+### Networking
+### SSH - Secure Shell
+
+
 
 
 
