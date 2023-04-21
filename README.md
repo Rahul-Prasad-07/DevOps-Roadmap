@@ -28,6 +28,13 @@ Test --> Build --> Deploy --> Configure --> Monitor
 
 Plan --> Implement --> Test --> Deploy --> Maintain 
 
+- programming
+- software testing
+- operation
+ - build application
+ - run on server
+ - upgrade existing software 
+
 
 
 
