@@ -18,5 +18,10 @@
 
 Test --> Build --> Deploy --> Configure --> Monitor
 
+## Cloud Platform
+- Aws
+- Digital Ocen
+- Linod
+
 
 
