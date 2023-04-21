@@ -14,14 +14,21 @@
 - Configuration managment : Ansible
 - Monitoring : Promothes
 
-## Complete DevOps Pipeline
-
-Test --> Build --> Deploy --> Configure --> Monitor
 
 ## Cloud Platform
 - Aws
 - Digital Ocen
 - Linod
+
+## Complete DevOps Pipeline
+
+Test --> Build --> Deploy --> Configure --> Monitor
+
+## Software Development Life cycle
+
+Plan --> Implement --> Test --> Deploy --> Maintain 
+
+
 
 
 
