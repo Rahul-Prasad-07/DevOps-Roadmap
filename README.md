@@ -57,6 +57,14 @@ Plan --> Implement --> Test --> Deploy --> Maintain
 - how os differ from each other ?
 
 ### Virtualization
+- what virtualization and virtual machine?
+- why virtualization is useful
+- hypervisor 
+- how virtualization works 
+- why companies adopting virtualization?
+
+
+
 ### Linux file system
 ### Main linux command
 ### Package Manager
