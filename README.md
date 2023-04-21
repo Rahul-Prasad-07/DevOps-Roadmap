@@ -66,8 +66,42 @@ Plan --> Implement --> Test --> Deploy --> Maintain
 
 
 ### Linux file system
+- linux vs windows
+- what is binary
+- /bin, /sbin, /lib, /usr, /user/local,/opt, /root, /etc, /dev, /var, /var/catch, /var/log, /tmp, /media, /mnt, 
+- interaction with root 
+
 ### Main linux command
+- Intro to command line
+- GUI vs CLI
+- pwd, ls, cd, mkdir, touch(file name), rm(file name), rm -r, clear, cd /- root folder, 
+
 ### Package Manager
+- how to install software on linux?
+- what is software package?
+- download, install or update software from repository
+- where do i get pakage manager?
+- in ubuntu: APT - advance package tool
+- sudo apt search openjdk
+- copy command: Swift+ Ctrl+ c 
+- paste command: Swift+ Ctrl+ v
+- APT-GET & APT( we use this )
+- Updating package: sudo apt update 
+- where do these packages come from ? 
+  - remote repository
+  - package manager fetch from it
+- you need alternative ways to install software
+ - ubuntu software center 
+ - snap package manager 
+ - add repository: add-apt-repository
+- package manager fot other linux distros
+  - Debian based 
+    - ubuntu, debian,int : APT & APT-GET
+  - Red hat based 
+    - RHEL, centOS, Fedora : YUM
+
+
+
 ### Vim Editor
 ### User & permission
 ### Shell scripting
