@@ -137,6 +137,40 @@ Plan --> Implement --> Test --> Deploy --> Maintain
    - type :%s/old/new : replace olf with new thorughtout the file 
 
 ### User & permission
+- User accounts 
+- Groups & ownership & file permission
+- Linux commands for managing users and thier permission
+
+
+- 3 Users category
+  - superuser account
+    - Root user : unrestricted permission
+  - User account
+    - a regular user we create to login
+  - service account
+    - relevant for linux distros & each service will get its own user, eg. mysql user will start mysql application
+    - best practices for security
+    - don't run service with root user
+
+- why multiple standard users?
+  - shared computer like in schools 
+- how does it work ?
+- centrally managed user permission in windows & that's one of the reason companies and school refer windows system
+- multiple user in linux 
+
+
+- multiple users on server 
+  - for linux having multi-user is important for Servers 
+  - usually teams administer a server 
+- why not just use shard server ? 
+  - they need non root user 
+  - permission per team member 
+  - traceability: who did what on system? 
+  - admin create user with permission 
+
+### Groups & permission
+    
+
 ### Shell scripting
 ### Environment variables
 ### Networking
