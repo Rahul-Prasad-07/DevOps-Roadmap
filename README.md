@@ -106,32 +106,35 @@ Plan --> Implement --> Test --> Deploy --> Maintain
 - how to edit or write a file in CLI? 
  - built-in text editor in linux 'VI or VIM'
 - why not just use GUI editor
- - small modification can be faster 
- - faster to create and edit at same time
- - support multiple format
- - when working on remote server
+  - small modification can be faster 
+  - faster to create and edit at same time
+  - support multiple format
+  - when working on remote server
 
- - Git CLI : writing git commit messages
- - Display kubernetes configuration file
- - quickly editing one line or chat in file
+  - Git CLI : writing git commit messages
+  - Display kubernetes configuration file
+  - quickly editing one line or chat in file
+
 - working with vim editor
- 1. Command Mode 
-  - this is default mode
-  - you can't edit text
-  - whatever you type is interpreted as command 
-  - navigate, search, delate, undo etc 
- 2. Insert Mode 
-  - allows you to enter text
+  1. Command Mode 
+   - this is default mode
+   - you can't edit text
+   - whatever you type is interpreted as command 
+   - navigate, search, delate, undo etc 
  
- ->To switch command mode to insert mode type : i key 
- ->press esc key for switching command mode
- -> to save & quit vim : ( :wq ) key 
- -> delete next 10 line : type d10
- -> for undo : type u 
- -> Type A : jump to end of line ans switch to insert mode
- -> type 12G : go to line 12
- -> type /pattern : search pattern 
- -> type :%s/old/new : replace olf with new thorughtout the file 
+ 2. Insert Mode 
+   - allows you to enter text
+ 
+ 
+   - To switch command mode to insert mode type : i key 
+   - press esc key for switching command mode
+   - to save & quit vim : ( :wq ) key 
+   - delete next 10 line : type d10
+   - for undo : type u 
+   - Type A : jump to end of line ans switch to insert mode
+   - type 12G : go to line 12
+   - type /pattern : search pattern 
+   - type :%s/old/new : replace olf with new thorughtout the file 
 
 ### User & permission
 ### Shell scripting
