@@ -178,8 +178,7 @@ Plan --> Implement --> Test --> Deploy --> Maintain
   - Devops team or group 
   - Admin team or group
   - Devloper teams or group
- -: users are added to the group
- -: permission for that group 
+users are added to the group & permission for that group 
     
 
 ### Shell scripting
