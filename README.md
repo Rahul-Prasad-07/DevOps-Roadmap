@@ -179,7 +179,13 @@ Plan --> Implement --> Test --> Deploy --> Maintain
   - Admin team or group
   - Devloper teams or group
 
-users are added to the group & permission for that group 
+users are added to the group & permission for that group
+
+- User mangement in practice
+ - access control files 
+   - /etc/password : stored user account info & everyone can read it but root user can only change the file.
+   - /etc/shadow 
+   - /etc/group
     
 
 ### Shell scripting
