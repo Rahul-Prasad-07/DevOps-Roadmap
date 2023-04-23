@@ -169,6 +169,17 @@ Plan --> Implement --> Test --> Deploy --> Maintain
   - admin create user with permission 
 
 ### Groups & permission
+- How to manage permission?
+- 2 level permission
+  - User level : give permission to user directly 
+  - Group level : group users into linux group & give permission to that group.this the way to go,if you manage multiple users.
+
+- we have different groups like 
+  - Devops team or group 
+  - Admin team or group
+  - Devloper teams or group
+ -: users are added to the group
+ -: permission for that group 
     
 
 ### Shell scripting
