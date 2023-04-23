@@ -116,14 +116,14 @@ Plan --> Implement --> Test --> Deploy --> Maintain
   - quickly editing one line or chat in file
 
 - working with vim editor
-  1. Command Mode 
-   - this is default mode
-   - you can't edit text
-   - whatever you type is interpreted as command 
-   - navigate, search, delate, undo etc 
+   - Command Mode 
+     - this is default mode
+     - you can't edit text
+     - whatever you type is interpreted as command 
+     - navigate, search, delate, undo etc 
  
- 2. Insert Mode 
-   - allows you to enter text
+   - Insert Mode 
+     - allows you to enter text
  
  
    - To switch command mode to insert mode type : i key 
