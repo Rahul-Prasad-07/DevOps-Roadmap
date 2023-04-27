@@ -190,6 +190,59 @@ users are added to the group & permission for that group
 
 ### Shell scripting
 ### Environment variables
+Till now you have coverd 
+ - Basic linux commands 
+ - Basic Shell scripting
+ - You can have multiple users on linux os and Windows os
+ 
+In the environment module
+  - Each users have its own env
+  - Each user can configure it's own env/account by setting pref 
+  - these os configuration should be isolted from the user environment 
+Where does os store all these configurations?
+--> Environment Variables & its usecases 
+  - Os store infro about env
+  - we can create our own env variables
+  - variables store information
+  - You can see it all env by runng **printenv** command
+  
+Why would we want to create own env?
+ - App has to be connected with databse and severs .. for that we need credential to loggin 
+ - we cant write our credential in our open code 
+ - set data as env vars on server 
+ - by creating these env vars, we make thrm avilable in the environment 
+ - all apps and processes can now access these env vars
+ - what is you have write creditials for 1000000 of servers and databse : that's where this concept make process easier and more flexible
+ 
+How to create Env variables 
+- export DB_USERNAME = dbuser by exporting it is avaible in whole system
+- export DB_PASSWORD = password
+
+How ro delate env?
+- unset (name of env)
+
+If u are using BASH, you can delcare variables in the **~/.bashrc** file
+
+How persist env variables ?
+- user specific env variables file --> `./bashrc
+- for system --> /etc/environment
+
+Add custom command/Prorgram
+
+
+
+Commands 
+- printenv USER
+- printenv | grep USER
+- echo $USER --> Rahul Prasad
+- printenv | grep DB --> all results of env with db starting
+- wq:
+- source .bashrc
+- vim /etc/environment
+- /user/bin/ls -l
+- echo $PATH
+
+
 ### Networking
 ### SSH - Secure Shell
 
