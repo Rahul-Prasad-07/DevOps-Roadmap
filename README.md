@@ -244,6 +244,31 @@ Commands
 
 
 ### Networking
+- How does computer network works?
+- How does computer connect to internet?
+- what is an ip address and port?
+- what is dns? 
+
+ - Lan 
+ - Ip
+ - switch
+ - router & wan 
+ - gateway: ip address of router 
+ - subnet & subnetting : process of dividing one network into two or more network
+ - CIDR bloks : classless inter domain routing
+
+Any device needs 3 pecies of data for communication : 
+ - Ip address
+ - subnet
+ - gateway
+
+How to make sure ip address doesn't overlap ? 
+ - NAT : network address transition
+ - router changes ips 
+
+
+
+ 
 ### SSH - Secure Shell
 
 
