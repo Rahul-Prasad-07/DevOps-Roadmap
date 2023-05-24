@@ -271,6 +271,35 @@ How to make sure ip address doesn't overlap ?
  
 ### SSH - Secure Shell
 
+Intro to SSH
+ - SSH is network protocol that gives user a secure way to access computer over the internet
+ - SSH refers also the suite of utilities that implement that protocol
+ - ebcyrpted data communication : That means we need to authenticate 
+   - 2 ways to authenticate
+     - Username and Password
+       - Admin create user on remote server
+       - User can then connect with username and password
+     - SSH Key Pair : without typing pass
+       - more secure
+       - Client create an SSH key pair : public key + Private key
+       - keys are simply encyrpted values
+       - Private key = secret key. is stored securely on the client machine
+       - Public key = Can be shared. like with the remote server
+       - concept like in web3
+       - in development : all team members create their ssh key and admin store it on the server and they can connect.
+       - If the public key of the person is not registerd on the remote server, they cannot connect to it.
+      
+   - SSH for services 
+      - u can also add users on the remoter server for another services
+      - Another services can be another app like jenkins to connect with server, to copy fs or execute some commands thier
+      - example
+      - Create jenkins user on app server
+       - create ssh key pair on jenkins server
+       - add public ssh key to authorized_key on app server
+       - This way we can allow jenkins to automatically connect over ssh to over ssh to our app sever and execute stuff on cli
+       
+   - Firewall and Port 22
+
 
 
 
