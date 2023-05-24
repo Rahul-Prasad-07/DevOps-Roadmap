@@ -299,14 +299,14 @@ How to make sure ip address doesn't overlap ?
        - This way we can allow jenkins to automatically connect over ssh to over ssh to our app sever and execute stuff on cli
        
 - Firewall and Port 22
- -  when one machine needs to connect with another machine then the communication must be allowed throgh **Firewall rule**.
- -  Other wise by default it's Bloked
- -  **SSH Authentication** comes after the connection : first connection must be allowed and then auth can be varified by server.
- -  Firewall always configure the **ports** where the server is accessable and that the port is always open for app.
- -   So what port and which app that run on server to accept our ssh req --> most os has SSH sevices runs by defalt on machine,
- -   By defallt that ssh server runs on port 22
- -   In firewall rule we allow access on port 22
- -   SSH is powerfull and needs to be restricted to specific ip addresses
+  -  when one machine needs to connect with another machine then the communication must be allowed throgh **Firewall rule**.
+  -  Other wise by default it's Bloked
+  -  **SSH Authentication** comes after the connection : first connection must be allowed and then auth can be varified by server.
+  -  Firewall always configure the **ports** where the server is accessable and that the port is always open for app.
+  -   So what port and which app that run on server to accept our ssh req --> most os has SSH sevices runs by defalt on machine,
+  -   By defallt that ssh server runs on port 22
+  -   In firewall rule we allow access on port 22
+  -   SSH is powerfull and needs to be restricted to specific ip addresses
 
 - SSH in Action --> DEMO
   - Create Remote Server on cloud platform(digital ocen)
