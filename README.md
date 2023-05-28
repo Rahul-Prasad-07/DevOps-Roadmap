@@ -314,6 +314,8 @@ How to make sure ip address doesn't overlap ?
   - Copy bash script file to the remoter server
   - Execute script file on remote server
 
+## Database - types 
+
 
 ## Version control with Git
 
