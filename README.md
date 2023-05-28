@@ -317,6 +317,31 @@ How to make sure ip address doesn't overlap ?
 
 ## Version control with Git
 
+## Build & Package Manager tools
+
+## Cloud & Iaas
+
+## Artifact Repo Manager
+
+## Containers
+
+## Build Automation ( CI/CD )
+
+## Aws services
+
+## Container orchestration
+
+## k8s on Aws
+
+## Iac with Terraform
+
+## Programming basics python
+
+## Automation with python
+
+## Configuration Management - Ansible
+
+## Monitoring with Prometheus 
 
 
 
